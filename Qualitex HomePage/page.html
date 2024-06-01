@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <title>qualitex-trading</title>
+    <style>
+        .btn-login{
+            background-color: #00008B;
+        }
+        .heading{
+            color: #00008B;
+        }
+        .btn-login:hover{
+            background-color: #FF6347;
+        }
+
+        .footer{
+            font-size: 0.8rem;            
+        }
+
+        .footer-image{
+            background-image: url(img/footer-bg.jpg);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header-->
+    <div class="container ">
+        <div class="row ">
+        <nav class="navbar  fixed-top navbar-expand-lg navbar-dark bg-white  p-md-3" style="box-shadow: 2px 2px 2px black ;">
+                <!-- Logo to the left -->
+            <div class="col-md-4 d-flex  align-items-center">
+
+                <a class="navbar-brand ml-3" href="#">
+                    <img src="/img/logo.jpg" class="" alt="logo" width="280" height="76">
+                </a>
+
+            </div>
+                <!-- Navbar items in the middle -->
+ 
+
+                <div class="col-md-8 d-flex justify-content-end ">
+                    <button class="navbar-toggler bg-dark h-75" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item mx-3 font-weight-bold" >
+                                <a class="nav-link" href="#" style="color: #00008B;">OUR PAGES</a>
+                            </li>
+                            <li class="nav-item mx-3 font-weight-bold">
+                                <a class="nav-link" href="#" style="color: #00008B;">INSTALLATION</a>
+                            </li>
+                            <li class="nav-item mx-3 font-weight-bold">
+                                <a class="nav-link"  href="#" style="color: #00008B;">FEATURES</a>
+                            </li>
+                            <li class="nav-item mx-3 font-weight-bold">
+                                <a class="nav-link  " href="#" style="color: #00008B;">REVIEWS</a>
+                            </li>
+                            <li class="nav-item mx-3 font-weight-bold">
+                                <button class="font-weight-bold btn btn-md dropdown-toggle rounded btn-login text-white" >Login</button>
+                            </li>
+                            <li class="nav-item mx-3 font-weight-bold font-weight-bold rounded">
+                                <button class="font-weight-bold btn btn-md  rounded btn-register text-dark bg-white border border-dark" >Register</button>
+                            </li>
+                            <li class="nav-item mx-3 drop open font-weight-bold">
+                                <a href="#" class=" btn dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"> 
+                                    <img src="/img/usa.png" height="35px"> English 
+                                    <span class="caret"></span> </a>                               
+                                    <ul class="dropdown-menu language">
+                                        <li>
+                                            <a href="" id="eng-lang"> 
+                                                <img src="img//usa.png" title="English" alt="English">
+                                                English
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" id="sp-lang">
+                                                <img src="/img/spain.png" title="Española" alt="Española"> 
+                                                Española
+                                            </a>
+                                        </li>
+                                    </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </nav>
+    </div>
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    </div>
+
+
+    <!-- Main Body -->
+    <div class="row bg-white">
+        <div class="col-md-3 col-lg-3  text-center">
+            <ul class="list-unstyled d-flex ml-5 flex-column align-items-start">
+                <button class="btn btn-danger btn-lg w-75"><i class="fa fa-car"></i>ALL STOCK</button>
+
+                <!-- Search by Make Section -->
+                <h5 class="font-weight-bold mt-3">SEARCH BY MAKE</h5>
+                <li class="my-3 border-bottom border-bottom-dotted w-75 d-flex">
+                    <a href=""><img src="/img/daihatsu.png" alt="daihatsu" height="29.31px" width="35px"><strong class="pl-2">Daihatsu</strong></a>
+                </li>
+                <li class="my-3 border-bottom border-bottom-dotted w-75 d-flex">
+                    <a href=""><img src="/img/honda.png" alt="honda" height="29.31px" width="35px"><strong class="pl-2">Honda</strong></a>
+                </li>
+                <li class="my-3 border-bottom border-bottom-dotted w-75 d-flex">
+                    <a href=""><img src="/img/isuzu.png" alt="isuzu" height="29.31px" width="35px"><strong class="pl-2">Isuzu</strong></a>
+                </li>
+                <li class="my-3 border-bottom border-bottom-dotted w-75 d-flex">
+                    <a href=""><img src="/img/mazda.png" alt="mazda" height="29.31px" width="35px"><strong class="pl-2">Mazda</strong></a>
+                </li>
+                <li class="my-3 border-bottom border-bottom-dotted w-75 d-flex">
+                    <a href="" class="active"><img src="/img/mercedezz.png" alt="mercedezz" height="29.31px" width="35px"><strong class="pl-2">Mercedezz</strong></a>
+                </li>
+                <li class="my-3 border-bottom border-bottom-dotted w-75 d-flex">
+                    <a href="" class="active"><img src="/img/mitsub.png" alt="mitsubishi" height="29.31px" width="35px"><strong class="pl-2">Mitsubishi</strong></a>
+                </li> 
+                <li class="my-3 border-bottom border-bottom-dotted w-75 d-flex">
+                    <a href="" class="active"><img src="/img/nissan.png" alt="nissan" height="29.31px" width="35px"><strong class="pl-2">Nissan</strong></a>
+                </li>
+                <li class="my-3 border-bottom border-bottom-dotted w-75 d-flex">
+                    <a href="" class="active"><img src="/img/nissanmt.jpg" alt="nissanmt" height="29.31px" width="35px"><strong class="pl-2">Nissan Mt</strong></a>
+                </li>
+                <li class="my-3 border-bottom border-bottom-dotted w-75 d-flex">
+                    <a href="" class="active"><img src="/img/subaru.png" alt="subaru" height="29.31px" width="35px"><strong class="pl-2">Subaru</strong></a>
+                </li>
+                <li class="my-3 border-bottom border-bottom-dotted w-75 d-flex">
+                    <a href="" class="active"><img src="/img/suzuki.png" alt="suzuki" height="29.31px" width="35px"><strong class="pl-2">Suzuki</strong></a>
+                </li>
+                <li class="my-3 border-bottom border-bottom-dotted w-75 d-flex">
+                    <a href="" class="active"><img src="/img/toyota.png" alt="toyota" height="29.31px" width="35px"><strong class="pl-2">Toyota</strong></a>
+                </li>
+                <li class="my-3 border-bottom border-bottom-dotted w-75 d-flex">
+                    <a href="" class="active"><img src="/img/Volkswagen.png" alt="volkswagen" height="29.31px" width="35px"><strong class="pl-2">Volkswagen</strong></a>
+                </li>
+
+
+
+                <!-- Search By Type Section -->
+                <h5 class="font-weight-bold my-3">SEARCH BY TYPE</h5>
+                <li class="my-3 border-bottom border-bottom-dotted w-75 d-flex">
+                    <a href="" class="active"><img src="/img/dump.png" alt="dump" height="29.31px" width="35px"><strong class="pl-2">Dump</strong></a>
+                </li>
+                <li class="my-3 border-bottom border-bottom-dotted w-75 d-flex">
+                    <a href="" class="active"><img src="/img/hatch.png" alt="volkswagen" height="29.31px" width="35px"><strong class="pl-2">Hatchback</strong></a>
+                </li>
+                <li class="my-3 border-bottom border-bottom-dotted w-75 d-flex">
+                    <a href="" class="active"><img src="/img/pickup.png" alt="volkswagen" height="29.31px" width="35px"><strong class="pl-2">Pickup/ Ute</strong></a>
+                </li>
+                <li class="my-3 border-bottom border-bottom-dotted w-75 d-flex">
+                    <a href="" class="active"><img src="/img/sedan.png" alt="volkswagen" height="29.31px" width="35px"><strong class="pl-2">Sedan</strong></a>
+                </li>
+                <li class="my-3 border-bottom border-bottom-dotted w-75 d-flex">
+                    <a href="" class="active"><img src="/img/station.png" alt="volkswagen" height="29.31px" width="35px"><strong class="pl-2">Station Wagon</strong></a>
+                </li>
+                <li class="my-3 border-bottom border-bottom-dotted w-75 d-flex">
+                    <a href="" class="active"><img src="/img/suv.png" alt="volkswagen" height="29.31px" width="35px"><strong class="pl-2">Suv</strong></a>
+                </li>
+                <li class="my-3 border-bottom border-bottom-dotted w-75 d-flex">
+                    <a href="" class="active"><img src="/img/truck.png" alt="volkswagen" height="29.31px" width="35px"><strong class="pl-2">Truck</strong></a>
+                </li>
+                <li class="my-3 border-bottom border-bottom-dotted w-75 d-flex">
+                    <a href="" class="active"><img src="/img/van.png" alt="volkswagen" height="29.31px" width="35px"><strong class="pl-2">Van/ Onebox</strong></a>
+                </li>
+
+
+
+                <!-- Search By Price Section -->
+                <h5 class="font-weight-bold my-3">SEARCH BY PRICE</h5>
+                <li class="my-3 border-bottom border-bottom-dotted w-75 d-flex">
+                    <a href="" class="active"><img src="/img/dolor-icon.png" alt="volkswagen" height="29.31px" width="35px"><strong class="pl-2">Under $500</strong></a>
+                </li>
+                <li class="my-3 border-bottom border-bottom-dotted w-75 d-flex">
+                    <a href="" class="active"><img src="/img/dolor-icon.png" alt="volkswagen" height="29.31px" width="35px"><strong class="pl-2">$500-$1000</strong></a>
+                </li>
+                <li class="my-3 border-bottom border-bottom-dotted w-75 d-flex">
+                    <a href="" class="active"><img src="/img/dolor-icon.png" alt="volkswagen" height="29.31px" width="35px"><strong class="pl-2">$1001-$2000</strong></a>
+                </li>
+                <li class="my-3 border-bottom border-bottom-dotted w-75 d-flex">
+                    <a href="" class="active"><img src="/img/dolor-icon.png" alt="volkswagen" height="29.31px" width="35px"><strong class="pl-2">$2001-$3000</strong></a>
+                </li>
+                <li class="my-3 border-bottom border-bottom-dotted w-75 d-flex">
+                    <a href="" class="active"><img src="/img/dolor-icon.png" alt="volkswagen" height="29.31px" width="35px"><strong class="pl-2">$3001-$4000</strong></a>
+                </li>
+                <li class="my-3 border-bottom border-bottom-dotted w-75 d-flex">
+                    <a href="" class="active"><img src="/img/dolor-icon.png" alt="volkswagen" height="29.31px" width="35px"><strong class="pl-2">Over $4000</strong></a>
+                </li>
+
+
+                <!-- Search By Country Section -->
+                <h5 clas5="font-weight-bold my-3">SEARCH BY COUNTRY</h5>
+                <li class="my-3 border-bottom border-bottom-dotted w-75 d-flex">
+                    <a href="" class="active"><img src="/img/chile.png" alt="volkswagen" height="29.31px" width="35px"><strong class="pl-2">Chile</strong></a>
+                </li>
+                <li class="my-3 border-bottom border-bottom-dotted w-75 d-flex">
+                    <a href="" class="active"><img src="/img/dominican.png" alt="volkswagen" height="29.31px" width="35px"><strong class="pl-2">Dominican Republic</strong></a>
+                </li>
+                <li class="my-3 border-bottom border-bottom-dotted w-75 d-flex">
+                    <a href="" class="active"><img src="/img/japan.png" alt="volkswagen" height="29.31px" width="35px"><strong class="pl-2">Japan</strong></a>
+                </li>
+                <li class="my-3 border-bottom border-bottom-dotted w-75 d-flex">
+                    <a href="" class="active"><img src="/img/kenya.png" alt="volkswagen" height="29.31px" width="35px"><strong class="pl-2">Kenya</strong></a>
+                </li>
+                <li class="my-3 border-bottom border-bottom-dotted w-75 d-flex">
+                    <a href="" class="active"><img src="/img/paistan.png" alt="volkswagen" height="29.31px" width="35px"><strong class="pl-2">Pakistan</strong></a>
+                </li>
+                <li class="my-3 border-bottom border-bottom-dotted w-75 d-flex">
+                    <a href="" class="active"><img src="/img/uganda.png" alt="volkswagen" height="29.31px" width="35px"><strong class="pl-2">Uganda</strong></a>
+                </li>
+                <li class="my-3 border-bottom border-bottom-dotted w-75 d-flex ">
+                    <a href="" class="active w-75 d-flex"><img src="/img/trinidad.png" alt="volkswagen" height="29.31px" width="35px"><strong class="pl-2">Trinidad And Tobago</strong></a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Main Body -->
+        <div class="col-md-7 w-100 ">
+            <div class="container">
+                <div class="row">
+            <div class="col-md-12">
+                <div class="card ">
+                    <div
+                    id="carouselExampleSlidesOnly"
+                    class="carousel slide"
+                    data-ride="carousel"
+                    data-interval="5000"
+                  >
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          class="d-block w-100"
+                          src="/img/14890196001.jpg"
+                          alt="First slide"
+                        />
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="d-block w-100"
+                          src="/img/14890196001.jpg"
+                          alt="Second slide"
+                        />
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                      </div>
+
+                    </div>
+                    <a
+                      class="carousel-control-prev"
+                      href="#carouselExampleSlidesOnly"
+                      role="button"
+                      data-slide="prev"
+                    >
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a
+                      class="carousel-control-next"
+                      href="#carouselExampleSlidesOnly"
+                      role="button"
+                      data-slide="next"
+                    >
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+        </div>
+
+
+        <!-- Stock Section -->
+        <div class="col-md-2 text-center">
+            <img src="/img/onwaystock.png" class="mb-3" width="184.83" height="81.69" alt="">
+            <img src="/img/overseas-stock.png" class="my-3" width="184.83" height="81.69" alt="">    
+            <img src="/img/new-arrival.png" class="my-3" width="184.83" height="81.69" alt="">    
+            <img src="/img/view-all-stock.png" class="my-3" width="184.83" height="81.69" alt="">    
+            <img src="/img/hatchback-stock.png" class="my-3" width="184.83" height="81.69" alt="">    
+            <img src="/img/japanes-used-truck.png" class="my-3" width="184.83" height="81.69" alt="">    
+            <img src="/img/japanese-used-van.png" class="my-3" width="184.83" height="81.69" alt="">    
+        </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="row bg-white h-100 " style="box-shadow: 0 0 3px 0 black ;">
+        <div class="col-md-6 my-5">
+            <ul class="list-unstyled ml-5">
+                <h4 class="heading">JAPANESE USED CARS EXPORTER</h4>
+                <li class="my-3">
+                    <p><i class="fa fa-check"></i>At "Qualitex Trading" we have a large number of quality used cars, trucks and vans with more arriving everyday.</p>
+                </li>
+                <li class="my-3">
+                    <p><i class="fa fa-check"></i>Below average prices, to suit your budget.</p>
+                </li>
+                <li class="my-3">
+                    <p><i class="fa fa-check"></i>Every car has multiple pictures so you can really see what you are buying.</p>
+                </li>
+                <li class="my-3">
+                    <p><i class="fa fa-check"></i>We will respond to any questions you may have quickly.</p>
+                </li>
+                <li class="my-3">
+                    <p><i class="fa fa-check"></i>We are very experienced in shipping internationally. Our shipping partners are ready to send your vehicle to you immediately.</p>
+                </li>
+                <li class="my-3">
+                    <p><i class="fa fa-check"></i> There is a professional mechanic on our staff to check vehicles; we also offer a tuning service.</p>
+                </li>
+                <li class="my-3">
+                    <p><i class="fa fa-check"></i> Our professional commercial vehicle branch provide our trucks and vans.</p>
+                </li>
+                <li class="my-3">
+                    <p><i class="fa fa-check"></i>We pride ourselves in providing a reliable service, we have had no problems with our transactions throughout the history of our company.</p>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-5 my-5">
+            <img src="/img/qualitex-trading.png" alt="">
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="row footer footer-image ">
+
+        <!-- Quick Links -->
+        <div class="col-md-3 col-lg-2 col-sm-3 ">                        
+            <h5 class="text-center mt-5 text-white">Quick Links</h5>
+            <ul class="list-unstyled text-white  mx-5">
+                <li class="my-2 mt-3"><a href="" class=" text-white">>  HOW TO BUY</a></li>
+                <li class="my-2">>  Qualitex Profile</li>
+                <li class="my-2">>  Why Qualitex?</li>
+                <li class="my-2">>  About Qualitex</li>
+                <li class="my-2">>  SERVICES</li>
+                <li class="my-2">>  FAQs</li>
+                <li class="my-2">>  Send Inquiry</li>
+                <li class="my-2">>  Terms & Conditions</li>
+            </ul>
+        </div>
+
+
+        <!-- Search by Make -->
+        <div class="col-md-3 col-lg-2 col-sm-3">
+            <h5 class="text-center mt-5 text-white">Search by Make</h5>
+            <ul class="list-unstyled text-white  mx-4">
+                <li class="my-2 mt-3">>  Toyota</li>
+                <li class="my-2">>   Nissan</li>
+                <li class="my-2">>   Isuzu</li>
+                <li class="my-2">>   Mitsubishi</li>
+                <li class="my-2">>   Suzuki</li>
+                <li class="my-2">>  Honda</li>
+                <li class="my-2">>  Mazda</li>
+                <li class="my-2">>  Daihatsu</li>
+                <li class="my-2">>  Subaru</li>
+                <li class="my-2">>  BMW</li>
+            </ul>
+        </div>
+
+
+        <!-- Search by Years -->
+        <div class="col-md-3 col-lg-2 col-sm-3 mb-5">
+            <h5 class="text-center mt-5 text-white">Search by Year</h5>
+            <ul class="list-unstyled text-white  mx-4">
+                <li class="my-2 mt-3">>  Newer than 2015</li>
+                <li class="my-2">>   Registration Year 2014</li>
+                <li class="my-2">>   Registration Year 2013</li>
+                <li class="my-2">>   Registration Year 2012</li>
+                <li class="my-2">>   Registration Year 2011</li>
+                <li class="my-2">>   Registration Year 2010</li>
+                <li class="my-2">>   Registration Year 2009</li>
+                <li class="my-2">>   Registration Year 2008</li>
+                <li class="my-2">>   Registration Year 2007</li>
+                <li class="my-2">>   Registration Year 2006</li>
+                <li class="my-2">>   Registration Year 2005</li>
+            </ul>
+        </div>
+
+
+        <!-- Quick Links -->
+        <div class="col-md-3 col-lg-3 col-sm-3">
+            <h5 class="text-center mt-5 text-white d-flex align-items-start">Quick Links</h5>
+            <ul class="list-unstyled text-white ">
+                <li class="my-2 mt-3"><img src="img/footer-logo.png" alt=""></li>
+                <li class="my-2"><i class="fa fa-phone"></i>Oval Business Center 2F, 2-12-5 Izumi Ebina-Shi Kanagawa-Ken, 243-0437 Japan</li>
+                <li class="my-2"><i class="fa fa-phone"></i> +81-46-236-1588   </li>
+                <li class="my-2"><i class="fa fa-fax"></i> +81-46-236-1589</li>
+                <li class="my-2"><i class="fa fa-envelope"></i> +81-46-236-1589</li>
+                <li class="my-2">Monday to Friday ( 9:00am, to 6:00pm )</li>
+            </ul>
+        </div>
+        <div class="col-md-12 btn-login text-center">
+                <p class="text-white ml-5">Copyright &copy; 1996-2024 Qualitex Trading Co. Ltd. JAPAN</p>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+  
+    <script>
+        $(document).ready(function(){
+            $(".navbar-toggler").click(function(){
+                $(".navbar-nav").addClass("text-center")
+            });
+            $(".navbar-toggler").click(function(){
+                $(".nav-item").addClass("my-3")
+            });
+            $(".navbar-toggler").click(function(){
+                $("").addClass("my-3")
+            });
+
+        })
+    </script>
+</body>
+</html>
